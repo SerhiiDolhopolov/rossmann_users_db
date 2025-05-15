@@ -6,7 +6,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY database ./database
-COPY users_db_models ./users_db_models
+COPY rossmann_users_db_models ./rossmann_users_db_models
 
 ENV PYTHONPATH=/app
 

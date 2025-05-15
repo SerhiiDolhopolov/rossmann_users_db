@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-from users_db_models import User
+from rossmann_users_db_models import User
 
 
 def create_user(db: Session, 

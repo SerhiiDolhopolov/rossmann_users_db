@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from users_db_models import Base
+from rossmann_users_db_models import Base
 from database.config import USERS_DB_USER, USERS_DB_PASSWORD, USERS_DB_DB, USERS_DB_HOST, USERS_DB_PORT
 
 

@@ -1,7 +1,7 @@
 from database.db import init_db, get_db
 from database.services.user_service import create_user
 
-from users_db_models import User
+from rossmann_users_db_models import User
 
 
 def main():

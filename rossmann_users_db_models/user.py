@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped, mapped_column
 
-from users_db_models import Base
+from rossmann_users_db_models import Base
 
 
 class User(Base):
