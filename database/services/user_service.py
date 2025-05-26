@@ -3,9 +3,11 @@ from sqlalchemy.orm import Session
 from rossmann_users_db_models import User
 
 
-def create_user(db: Session, 
-                first_name: str, 
-                last_name: str) -> User:
+def create_user(
+    db: Session,
+    first_name: str,
+    last_name: str
+) -> User:
     email = f"{first_name.lower()}.{last_name.lower()}@example.com"
     password = 'password'
     user = User(
