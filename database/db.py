@@ -11,13 +11,8 @@ from database.config import (
 )
 
 DATABASE_URL = (
-    "postgresql+psycopg2://{username}:{password}@{host}:{port}/{dbname}".format(
-        username=USERS_DB_USER,
-        password=USERS_DB_PASSWORD,
-        dbname=USERS_DB_DB,
-        host=USERS_DB_HOST,
-        port=USERS_DB_PORT,
-    )
+    f"postgresql+psycopg2://{USERS_DB_USER}:{USERS_DB_PASSWORD}@"
+    f"{USERS_DB_HOST}:{USERS_DB_PORT}/{USERS_DB_DB}"
 )
 
 engine = create_engine(DATABASE_URL)

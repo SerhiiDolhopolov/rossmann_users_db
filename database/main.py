@@ -10,6 +10,7 @@ def main():
     try:
         if db.query(User).first():
             return
+
         create_user(db, 'Daenerys', 'Targaryen')
         create_user(db, 'Viserys', 'Targaryen')
         create_user(db, 'Rhaegar', 'Targaryen')
