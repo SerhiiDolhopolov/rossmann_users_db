@@ -2,15 +2,23 @@
 ## Languages
 [![python](https://img.shields.io/badge/python-3.11-d6123c?color=white&labelColor=d6123c&logo=python&logoColor=white)](https://www.python.org/)
 
+<!-- omit in toc -->
 ## Frameworks
 [![sqlalchemy](https://img.shields.io/badge/sqlalchemy-2.0.41-d6123c?color=white&labelColor=d6123c&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
+<!-- omit in toc -->
 ## Services
 [![docker](https://img.shields.io/badge/docker-d6123c?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![postgreSQL](https://img.shields.io/badge/postgresql-d6123c?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
 <!-- omit in toc -->
 ## Table of Contents
+- [Introduction](#introduction)
+- [Project workflow](#project-workflow)
+- [Docker Containers](#docker-containers)
+- [Database Schema](#database-schema)
+- [Getting Started](#getting-started)
+- [Next Section of the Project](#next-section-of-the-project)
 
 ## Introduction
 🟢 **This is part 4 of 7 Docker sections in the 🔴 [Supermarket Simulation Project](https://github.com/SerhiiDolhopolov/rossmann_services).**
@@ -30,6 +38,11 @@ This section contains a User DB to show the possibility of interaction between A
     - Other:
       - `admin`
   - **App**
+
+## Database Schema
+The schema was created at [chartdb.io](https://chartdb.io/).
+
+![Users DB Schema](images/users_db.png)
 
 ## Getting Started
 **To start:**
