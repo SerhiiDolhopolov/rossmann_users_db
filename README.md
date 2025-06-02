@@ -46,7 +46,7 @@ The schema was created at [chartdb.io](https://chartdb.io/).
 
 ## Getting Started
 **To start:**
-1. Complete all steps in the [first part](https://github.com/SerhiiDolhopolov/rossmann_services).
+1. Complete all steps in the [main part](https://github.com/SerhiiDolhopolov/rossmann_services).
 2. Run the services:
 ```bash
 docker compose up --build
